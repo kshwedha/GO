@@ -66,11 +66,11 @@ func Dijkstra_path(i_vertice int, dest int, result []int, vertices [5][5]int, vi
 // }
 
 func main() {
-	// experiment on this
+	// using map
+	// initialization.
 	// var vertices_and_edges = map[string]map[string]int{"A": {"B": 3, "C": 8, "D": 9}}
 	// fmt.Println(vertices_and_edges)
 
-	// using map
 	// method 1
 	// var vertices_and_edges = make(map[string]map[string]int)
 	// vertices_and_edges["A"] = map[string]int{"B": 5, "C": 3, "E": 1}
@@ -108,10 +108,6 @@ func main() {
 	// vertices_and_edges["E"]["C"] = 5
 	// vertices_and_edges["E"]["D"] = 1
 	// fmt.Println(vertices_and_edges)
-
-	// var vertices []string
-	// static input
-	// vertices = {"A", "B", "C", "D", "E"}
 
 	// dynamic input
 	// type 1
